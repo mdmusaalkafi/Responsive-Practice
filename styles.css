@@ -37,3 +37,15 @@ div h1 span{
     width:80%;
     margin:auto;
 }
+
+.deals {
+    display:flex;
+    gap:100px;
+
+}
+2-deals{
+    display:flex;
+    flex-direction:coloum;
+    gap:0px;
+
+}
