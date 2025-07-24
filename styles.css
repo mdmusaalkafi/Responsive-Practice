@@ -1,20 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 header{
     display:flex;
     justify-content: space-between;
+    margin-left: 10%;
+    align-items: center;
 
 }
-.navbar{
+.navbar, .navbar li{
     display:flex;
-    gap:10px;
+    gap:1.5rem;
+    font-size:1.5rem;
 }
 nav ul{
     list-style-type: none;
 }
+.cart{
+    width:50px;
+    position: relative;
+    top: -12px;
+    left:30px;
+    
+}
 .banner{
     display:flex;
+    margin: 5rem;
+    justify-content: space-between;
+    align-items: center; 
+}
+.banner-img{
+    margin-left:550px;
+    width:80%;
 }
 div h1 span{
     color:orange;
+}
+.banner div p{
+    font-size: 1.5rem;
 }
 .card{
     display: grid;
@@ -43,9 +67,16 @@ div h1 span{
     gap:100px;
 
 }
-2-deals{
+.2-deals{
     display:flex;
     flex-direction:coloum;
     gap:0px;
-
+}
+.footer{
+    display:flex;
+}
+.plants{
+    text-align: center;
+    /* max-width: 800px; */
+    /* margin:0 auto; */
 }
