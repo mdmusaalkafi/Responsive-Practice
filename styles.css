@@ -1,0 +1,18 @@
+header{
+    display:flex;
+    justify-content: space-between;
+
+}
+.navbar{
+    display:flex;
+    gap:10px;
+}
+ul{
+    list-style-type: none;
+}
+.banner{
+    display:flex;
+}
+div h1 span{
+    color:orange;
+}
