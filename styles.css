@@ -16,3 +16,14 @@ ul{
 div h1 span{
     color:orange;
 }
+.card{
+    display: grid;
+    grid-template-columns: repeat(4,4fr);
+    gap:4px;
+    border-color: black;
+    margin:10px;
+
+}
+.cart-btn{
+    background-color:orange;
+}
