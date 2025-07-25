@@ -306,5 +306,19 @@ height: 11rem;
     width: 80vw;
     height: 25vh;
   }
-  
+  .join {
+    flex-direction: column;
+    padding: 2rem;
+    font-size: 1.5rem;
+    width:100vw;
+  }
+
+  .mail {
+    width: 100%;
+    margin: 1rem 0;
+  }
+
+  .subs-btn {
+    width: 100%;
+  }
   }
