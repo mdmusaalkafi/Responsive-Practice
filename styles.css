@@ -248,5 +248,14 @@ height: 11rem;
   .banner-img {
     width: 100%;
   }
+  .card {
+    grid-template-columns: repeat(2, 1fr);
+    width: 90%;
+    gap: 1rem;
+  }
+
+  .cart-btn {
+    width: 100%;
+  }
 
  }
