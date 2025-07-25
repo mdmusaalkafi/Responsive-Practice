@@ -215,6 +215,7 @@ height: 11rem;
 }
 .f-text{
     font-size: 1.4rem;
+    color:grey;
 }
 .icon{
     display: flex;
@@ -321,4 +322,30 @@ height: 11rem;
   .subs-btn {
     width: 100%;
   }
+  .footer {
+    flex-direction: column;
+    gap: 2rem;
+    /* text-align: center; */
+    margin: 2rem;
+    height: auto;
   }
+
+  .icon {
+    justify-content: center;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .f-text ul {
+        padding: 0;
+        list-style-type: none;
+  }
+
+  .f-text li {
+    font-size: 1.2rem;
+  }
+
+  .footer p {
+    font-size: 1.2rem;
+  }
+}
