@@ -113,8 +113,8 @@ margin-top:2rem;
 }
 .badge {
   position: absolute;
-  top: 92rem;
-  left: 33rem; 
+  top: 95rem;
+  left: 32rem; 
   width: 300px;
 }
 
@@ -282,7 +282,7 @@ height: 11rem;
 
   .flwr-plnt-img {
     width: 100vw;
-    height:48vh;
+    height:70vh;
     margin-left: 5rem;
     margin-top: 5vw;
   }
