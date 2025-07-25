@@ -49,6 +49,9 @@ div h1 span{
 .banner div p{
     font-size: 1.5rem;
 }
+.items{
+    text-align:center;
+}
 .o_plants{
 display:flex;
 flex-direction: column;
@@ -60,7 +63,7 @@ margin-top:2rem;
     display: grid;
     grid-template-columns: repeat(4,4fr);
     gap:1px;
-    width:90%;
+    width:80%;
     margin:auto;
 }
 .cart-btn{
@@ -70,10 +73,6 @@ margin-top:2rem;
     font-size: 1.1rem;
     font-weight: bold;
     color:white;
-}
-.items{
-    text-align:center;
-    padding:5px;
 }
 .flwr-plnt{
     display:flex;
@@ -99,8 +98,8 @@ margin-top:2rem;
 }
 .badge {
   position: absolute;
-  top: 106rem;
-  left: 36rem; 
+  top: 92rem;
+  left: 33rem; 
   width: 300px;
 }
 
@@ -158,7 +157,7 @@ height: 11rem;
   padding: 10px;
 }
 .plants{
-    /* align-items: center; */
+    align-items: center;
     text-align: center;
 }
 .plants p{
@@ -222,4 +221,3 @@ height: 11rem;
     margin-left:-10rem;
     gap:10px;
 }
-
