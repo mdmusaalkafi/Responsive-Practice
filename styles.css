@@ -286,4 +286,7 @@ height: 11rem;
   .flwr-plnt-text ul li {
     font-size: 1.2rem;
   }
+   .badge {
+    display: none;
+  }
  }
