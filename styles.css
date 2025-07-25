@@ -19,9 +19,12 @@ header{
     margin:0 auto;
     gap:40px;
 }
-.cart{
+.cart, .navbar p{
     display: flex;
-    align-items: center;
+    justify-content: space-around;
+    align-items:center;
+    margin:0 auto;
+    gap:40px;
     width:50px;
     margin-right: -2.5rem;
 }
@@ -221,3 +224,15 @@ height: 11rem;
     margin-left:-10rem;
     gap:10px;
 }
+@media (max-width: 768px) {
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+  }
+
+ .navbar li {
+  display: none; /* Hide all nav items */
+ }
+
+ }
