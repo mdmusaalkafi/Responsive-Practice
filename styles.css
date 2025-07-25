@@ -1,5 +1,4 @@
 *{
-
     margin: 0;
     border: 0;
     padding: 0;
@@ -24,6 +23,7 @@ header{
     display: flex;
     align-items: center;
     width:50px;
+    margin-right: -2.5rem;
 }
     .navbar li{
     display:flex;
@@ -181,7 +181,25 @@ height: 11rem;
 }
 .footer{
     display:flex;
+    height:30vh;
+    width: 80vw;
+    margin:5% 10%;
+    justify-content: space-between;
+    
 }
-
-
+.footer p{
+    color:grey;
+    font-size:1.5rem;
+}
+.f-text{
+    font-size: 1.4rem;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    height:2rem;
+    width:3rem;
+    margin-left:-10rem;
+    gap:10px;
+}
 
