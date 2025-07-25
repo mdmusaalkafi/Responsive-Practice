@@ -1,38 +1,47 @@
-* {
-  margin: 0;
-  padding: 0;
+*{
+
+    margin: 0;
+    border: 0;
+    padding: 0;
 }
 header{
     display:flex;
     justify-content: space-between;
     margin-left: 10%;
     align-items: center;
+    margin-right:10%;
 
 }
-.navbar, .navbar li{
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    width:100%;
+    margin:0 auto;
+    gap:40px;
+}
+.cart{
+    display: flex;
+    align-items: center;
+    width:50px;
+}
+    .navbar li{
     display:flex;
     gap:1.5rem;
     font-size:1.5rem;
-}
+    }
 nav ul{
     list-style-type: none;
 }
-.cart{
-    width:50px;
-    position: relative;
-    top: -12px;
-    left:30px;
-    
-}
 .banner{
     display:flex;
-    margin: 5rem;
+    margin-left: 10% ;
+    margin-right: 10%;
     justify-content: space-between;
     align-items: center; 
 }
 .banner-img{
-    margin-left:550px;
-    width:80%;
+    width:100%;
 }
 div h1 span{
     color:orange;
@@ -48,9 +57,12 @@ div h1 span{
     margin:auto;
 }
 .cart-btn{
-    background-color:orange;
-    margin:auto;
-    width:100%
+    background-color:rgb(253, 101, 0);
+    padding:0.8rem;
+    width:96%;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color:white;
 }
 .items{
     text-align:center;
@@ -77,9 +89,20 @@ div h1 span{
     display:flex;
 }
 .plants{
-    max-width: 800px;
-    margin:0 auto; 
+    /* align-items: center; */
+    text-align: center;
 }
+.plants p{
+    font-size: 1.5rem;
+}
+.plants h1{
+    font-size: 2.7rem;
+}
+.card p{
+    font-size:1.5rem;
+}
+
+
 .flwr-plnt-img img {
     margin-left:6.5rem;
     width:60%;
