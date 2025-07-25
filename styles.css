@@ -70,10 +70,27 @@ div h1 span{
 }
 .flwr-plnt{
     display:flex;
-    flex-wrap:wrap;
-    gap:0.5em;
-
+    gap:8rem;
 }
+.flwr-plnt-img img {
+    margin-left:30%;
+    margin-top:10%;
+    width:80%;
+}
+.flwr-plnt-text {
+    padding: 0px;
+    margin-top: 5%;
+}
+.flwr-plnt-text h1{
+    font-size:3rem;
+    margin-left: -2rem;
+}
+.flwr-plnt-text ul li{
+    font-size:1.5rem;
+    color: grey;
+}
+
+
 
 .deals {
     display:flex;
@@ -102,19 +119,4 @@ div h1 span{
     font-size:1.5rem;
 }
 
-
-.flwr-plnt-img img {
-    margin-left:6.5rem;
-    width:60%;
-}
-.flwr-plnt-text {
-    padding: 0px;
-    margin:0;
-}
-.flwr-plnt-text h1{
-    font-size:3rem;
-}
-.flwr-plnt-text ul li{
-    font-size:1.4rem;
-}
 
