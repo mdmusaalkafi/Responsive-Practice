@@ -90,18 +90,53 @@ div h1 span{
     color: grey;
 }
 
-
-
+.latest-deals{
+    text-align: center;
+    font-size: 1.8rem;
+}
 .deals {
     display:flex;
-    gap:100px;
+    gap:4rem;
+    font-size: 2rem;
+    margin: 5% 10%;
+    color:white;
+    text-align: center;
+    align-items: center;
+}
+.two-deals{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    justify-content: center;
+}
+.one-deal{
+    background-image: url(/assets/deal-zabo.png);
+    border-radius: 10%;
+    width: 45rem;
+    height: 24rem;
+}
+.center{
+    text-align:center;
+}
+.bloom{
+background-image:url(/assets/deal-bloom.png);
+border-radius: 10%;
+width: 21rem;
+height: 11rem;
 
 }
-/* .2-deals{
-    display:flex;
-    flex-direction:coloum;
-    gap:0px;
-} */
+.ana{
+background-image: url(assets/deal-ana.png);
+border-radius: 10%;
+width: 21rem;
+height: 11rem;
+}
+.bloom, .ana, .one-deal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
 .footer{
     display:flex;
 }
@@ -118,5 +153,6 @@ div h1 span{
 .card p{
     font-size:1.5rem;
 }
+
 
 
