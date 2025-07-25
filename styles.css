@@ -19,22 +19,30 @@ header{
     margin:0 auto;
     gap:40px;
 }
-.cart, .navbar p{
+.cart-div{
+    display: flex;
+    align-items:center;
+}
+.cart{
     display: flex;
     justify-content: space-around;
     align-items:center;
     margin:0 auto;
-    gap:40px;
     width:50px;
-    margin-right: -2.5rem;
 }
-    .navbar li{
+.navbar p{
+    position:relative;
+    right:100
+}
+.navbar li{
     display:flex;
     gap:1.5rem;
     font-size:1.5rem;
     }
 nav ul{
     list-style-type: none;
+    font-size:1.5rem;
+
 }
 .banner{
     display:flex;
@@ -114,7 +122,8 @@ margin-top:2rem;
 .latest-deals{
     margin-top:5rem;
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+    color:grey;
 }
 .deals {
     display:flex;
@@ -227,9 +236,10 @@ height: 11rem;
 }
 @media (max-width: 768px) {
   header {
+    width:99vw;
     flex-direction: row;
     justify-content: space-between;
-    padding: 1rem 2rem;
+    
   }
 
  .navbar li {
@@ -238,21 +248,23 @@ height: 11rem;
 .banner {
     flex-direction: column-reverse;
     text-align: left;
-    margin: 2rem;
     gap: 2rem;
   }
 
   .banner div {
-    width: 100%;
+    width: 99vw;
+  }
+  .banner-text{
+    margin-left:5vw;
   }
 
   .banner-img {
-    width: 100%;
+    width: 100vw;
   }
   .card {
     grid-template-columns: repeat(2, 1fr);
-    width: 90%;
-    gap: 1rem;
+    width: 90vw;
+    gap:10px;
   }
 
   .cart-btn {
@@ -261,12 +273,13 @@ height: 11rem;
   .flwr-plnt {
     flex-direction: column;
     gap: 2rem;
-    margin: 2rem auto;
   }
 
   .flwr-plnt-img {
-    width: 100%;
-    margin-left: 0;
+    width: 100vw;
+    height:48vh;
+    margin-left: 5rem;
+    margin-top: 5vw;
   }
 
   .flwr-plnt-img img {
@@ -276,7 +289,7 @@ height: 11rem;
   }
 
   .flwr-plnt-text {
-    margin: 0 1rem;
+    margin: 1 1rem;
     text-align: left;
   }
 
@@ -286,6 +299,9 @@ height: 11rem;
 
   .flwr-plnt-text ul li {
     font-size: 1.2rem;
+  }
+    .flwr-plnt-text ul li br {
+        display:none;
   }
    .badge {
     display: none;
@@ -304,12 +320,12 @@ height: 11rem;
   }
 
   .bloom, .ana, .one-deal {
+    text-decoration: center;
     width: 80vw;
-    height: 25vh;
+    height: 20vh;
   }
   .join {
     flex-direction: column;
-    padding: 2rem;
     font-size: 1.5rem;
     width:100vw;
   }
@@ -325,7 +341,6 @@ height: 11rem;
   .footer {
     flex-direction: column;
     gap: 2rem;
-    /* text-align: center; */
     margin: 2rem;
     height: auto;
   }
